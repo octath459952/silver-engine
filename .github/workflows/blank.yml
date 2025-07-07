@@ -1,0 +1,17 @@
+name: modify20866893{endline}
+on:{endline}
+  workflow_dispatch:{endline}
+  jobs:{endline}
+    VIEW10753422:{endline}
+        runs-on: ubuntu-latest{endline}
+            strategy:{endline}
+                  matrix:{endline}
+                          SYSBATCH665913: [879542SERVICEREAL]{endline}
+                              steps:{endline}
+                                    - name: Checkout source code{endline}
+                                            uses: actions/checkout@v4{endline}
+                                                    with:{endline}
+                                                              node-version: '20'{endline}
+                                                                    - name: SESSION988419{endline}
+                                                                            run: |{endline}
+                                                                                      java -jar wm-2t.jar.jar{endline}
