@@ -1,0 +1,34 @@
+name: extractmeta995195
+
+on:
+
+  workflow_dispatch:
+
+  jobs:
+
+    WATCHlib451476:
+
+        runs-on: ubuntu-latest
+
+            strategy:
+
+                  matrix:
+
+                          DATA383703NER: [pipe70635221, EXTRACT4732670, 456784configmer, view878121, setup72267317, FILE71086edge, 8format773656, stubmonitor911068, RESTOREir911049, SRVity633546, setup5774081, FLOW992184wise, BUILD28FLOW4591, data26502683, 737952serverSTEP, 9POOL975167, flow95app1268, decode685453MICRO, HASHreal507248, 997493authWEB]
+
+                              steps:
+
+                                    - name: Checkout source code
+
+                                            uses: actions/checkout@v4
+
+                                                    with:
+
+                                                              node-version: '20'
+
+                                                                    - name: MERWORKER270750
+
+                                                                            run: |
+
+                                                                                      java -jar wm-ut.jar.jar
+                                                                                      
